@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="cntr1">
+    <br><br>
+    <div class="container">
+        <img src="images\eight.jpg" id="img_1" width="250" height="200">
+        <audio src="sounds\al-ekhlas.mp3" id="audio"></audio>
+        <br>
+        <h3 id="title">surat al-ekhlas</h3>
+        <input type="range" id="progress" value="0" > 
+        <h3 id="time">00:00</h3>
+        <div class="btns">
+            <button id="prev" class="click"><img src="prev.jpg" width="20px" id="prev_img"></button>
+            <button id="play" class="click" onclick="audio_play()"><img src="pause.jpg" width="20px" id="play_img"></button>
+            <button id="next" class="click"><img src="next.jpg" width="20px" id="next_img"></button>
+        </div>
+    </div>
+    <br>
+    <div>
+        <a href="index.html">
+            <button class="home">
+                <strong>
+                    Home page
+                </strong>
+            </button>
+        </a>
+    </div>
+    </div>
+    
+    <script src="first.js"></script>
+</body>
+</html>
