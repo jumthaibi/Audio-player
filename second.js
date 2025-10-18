@@ -55,6 +55,7 @@ audio.addEventListener("timeupdate",()=>{
     audio.loop = true;
 });
 
-progress.addEventListener("click",()=>{
+progress.addEventListener("input",()=>{
     audio.currentTime = progress.value;
+
 });
